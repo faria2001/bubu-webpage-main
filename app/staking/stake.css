@@ -1,0 +1,14 @@
+.first{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap: 8px;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+.g1{
+    flex: 1;
+    padding: 18px;
+    align-items: center;
+}
