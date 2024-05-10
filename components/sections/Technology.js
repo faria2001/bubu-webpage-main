@@ -95,7 +95,7 @@ export default function Technology() {
               <img className="coin coin_8" src="/assets/images/common/coin13.png" alt=""  width={"10%"}/>
               {/* <img className="coin coin_5" src="/assets/images/common/coin5.png" alt="" /> */}
               {/* <img className="coin coin_6" src="/assets/images/common/coin6.png" alt="" /> */}
-              <img className="coin coin_9" src="/assets/images/common/coin13.png" alt=""  width={"20%"}/>
+              <img className="coin coin_9" src="/assets/images/common/coinEth.png" alt=""  width={"20%"}/>
               <img className="coin coin_10" src="/assets/images/common/coin12.png" alt=""  width={"10%"}/>
               <img className="coin coin_11" src="/assets/images/common/coin13.png" alt=""  width={"10%"}/>
               <img className="coin coin_14" src="/assets/images/common/coin12.png" alt=""  width={"10%"}/>

@@ -30,11 +30,16 @@ export default function Cta22() {
                               <h2 className="title">
                                 become our potential partner
                             </h2>  
-                            <p className="sub">Lorem ipsum dolor sit amet consectetur</p>
+                            <p className="sub">
+                            Bubu Crypto Coin is excited to extend an invitation to potential partners who are interested 
+                            in collaborating with us to enhance and expand our cryptocurrency ecosystem. As we continue to 
+                            grow and evolve, we recognize the value of strategic partnerships in achieving our goals. This brief outlines
+                             the opportunities available for organizations and individuals to become our potential partners.
+                            </p>
                             
                               <div className="wrap-btn">
                                 <Link href="/submit-project" className="tf-button style3">
-                                    Apply Project
+                                    Whitepaper
                                 </Link>
                             </div>  
                         </div>

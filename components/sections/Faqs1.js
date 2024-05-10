@@ -19,7 +19,7 @@ export default function Faqs1() {
                         <div className="col-md-12">
                             <Accordion1 />
                         </div>
-                        <div className="col-md-12">
+                        {/* <div className="col-md-12">
                             <div className="content_faq text-center">
                                 <p>Bubu Crypto Coin is excited to extend an invitation to potential partners who are interested in collaborating with us to enhance and expand our cryptocurrency ecosystem. As we continue to grow and evolve, we recognize the value of strategic partnerships in achieving our goals. This brief outlines the opportunities available for organizations and individuals to become our potential partners.</p>
                                 <div className="wrap-btn">
@@ -28,7 +28,7 @@ export default function Faqs1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

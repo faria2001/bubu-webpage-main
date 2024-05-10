@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import "./stake.css"
 
 
 export default function Staking() {
@@ -343,8 +344,10 @@ export default function Staking() {
                                     {/* Second Row with Three Equal Columns */}
                                     <div style={{ 
                                         display: 'flex', 
-                                        width: '100%' 
-                                    }}>
+                                        width: '100%' ,
+                                    }}
+                                    className='btns'
+                                    >
                                         {/* Individual Columns */}
                                         <div style={{ 
                                             flex: '1', 
@@ -352,7 +355,7 @@ export default function Staking() {
                                             textAlign: 'center' 
                                         }}>
                                         <div className="wrap-btn">
-                                            <button type="submit" className="tf-button style1">
+                                            <button type="submit" className="tf-button style1 btn1">
                                                 Stake
                                             </button>
                                         </div>
@@ -362,8 +365,8 @@ export default function Staking() {
                                             padding: '18px', 
                                             textAlign: 'center' 
                                         }}>
-                                        <div className="wrap-btn">
-                                            <button type="submit" className="tf-button style1">
+                                        <div className="wrap-btn" >
+                                            <button type="submit" className="tf-button style1 btn1" >
                                                 Unstake
                                             </button>
                                         </div>
@@ -374,7 +377,7 @@ export default function Staking() {
                                             textAlign: 'center' 
                                         }}>
                                         <div className="wrap-btn">
-                                            <button type="submit" className="tf-button style1">
+                                            <button type="submit" className="tf-button style1 btn1">
                                                 Claim
                                             </button>
                                         </div>
