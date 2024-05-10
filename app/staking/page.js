@@ -1,8 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Layout from "@/components/layout/Layout"
-import Link from "next/link";
-import "./stake.css"
+import Link from "next/link"
 
 
 export default function Staking() {
@@ -164,7 +163,7 @@ export default function Staking() {
                                 {/* Second Row with 1 Column */}
                                 <div style={getRowStyle(1)}>     
 
-                                    <div style={{ ...baseColumnStyle, width: 'calc(96.5%)', display:'flex',  }}>
+                                    <div style={{ ...baseColumnStyle, width: 'calc(96.3%)', display:'flex',  }}>
                                     {/* Single Column */}
                                      
                                     <div className="row" style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
@@ -175,7 +174,7 @@ export default function Staking() {
                                             fontWeight: '700',
                                             fontSize: '16px',
                                             marginBottom: '6px',
-                                            whiteSpace: 'nowrap', // Ensures label text stays on one line
+                                            whiteSpace: 'nowrap' // Ensures label text stays on one line
                                             }}>
                                             Lock Period
                                             </label>
@@ -228,7 +227,7 @@ export default function Staking() {
                                                         margin: '0 10px',
                                                         padding: '10px',
                                                         borderRadius: '10px',
-                                                        display: 'inline-block',
+                                                        display: 'inline-block'
                                                     }}>
                                                         {part}
                                                     </h4>
@@ -342,48 +341,38 @@ export default function Staking() {
                                     </div>
 
                                     {/* Second Row with Three Equal Columns */}
-                                    <div
-                                     style={{ 
+                                    <div style={{ 
                                         display: 'flex', 
-                                        width: '100%' ,
-                                        flex: 'row-wrap',
-                                    }}
-                                    >
+                                        width: '100%' 
+                                    }}>
                                         {/* Individual Columns */}
-                                        <div 
-                                        style={{ 
+                                        <div style={{ 
                                             flex: '1', 
                                             padding: '18px', 
                                             textAlign: 'center' 
-                                        }}
-                                        
-                                        >
+                                        }}>
                                         <div className="wrap-btn">
                                             <button type="submit" className="tf-button style1">
                                                 Stake
                                             </button>
                                         </div>
                                         </div>
-                                        <div
-                                         style={{ 
+                                        <div style={{ 
                                             flex: '1', 
                                             padding: '18px', 
                                             textAlign: 'center' 
-                                        }}
-                                        >
+                                        }}>
                                         <div className="wrap-btn">
                                             <button type="submit" className="tf-button style1">
                                                 Unstake
                                             </button>
                                         </div>
                                         </div>
-                                        <div 
-                                        style={{ 
+                                        <div style={{ 
                                             flex: '1', 
                                             padding: '18px', 
                                             textAlign: 'center' 
-                                        }}
-                                        >
+                                        }}>
                                         <div className="wrap-btn">
                                             <button type="submit" className="tf-button style1">
                                                 Claim
@@ -428,9 +417,10 @@ export default function Staking() {
                                             alignItems: 'center',
                                             justifyContent: 'center',
                                         }}>
-                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            {/* <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"> */}
                                             {/* SVG content */}
-                                            </svg>
+                                            {/* </svg> */}
+                                            <img src="assets/images/logo/usdt2.png" width="33" height="33" alt="Logo"   />
                                         </div>
 
                                         {/* Second Column */}
@@ -483,9 +473,10 @@ export default function Staking() {
                                             alignItems: 'center',
                                             justifyContent: 'center',
                                         }}>
-                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            {/* <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"> */}
                                             {/* SVG content */}
-                                            </svg>
+                                            {/* </svg> */}
+                                            <img src="assets/images/logo/logo2.png" width="45" height="45" alt="Logo"   />
                                         </div>
 
                                         {/* Second Column */}
@@ -506,7 +497,7 @@ export default function Staking() {
                                             </div>
 
                                             {/* Bottom Row */}
-                                            <span style={{ marginTop: '4px', color:'white', fontWeight:'700'}}>$ $ 0.000125 USD</span>
+                                            <span style={{ marginTop: '4px', color:'white', fontWeight:'700'}}>$ 0.000125 USD</span>
                                         </div>
                                         </div>
 

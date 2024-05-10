@@ -91,14 +91,14 @@ export default function Technology() {
             <div className="img_technology">
               {/* <img src="/assets/images/common/gold_crypto_coins_rain_smiling_laughing_blue_bear.png" alt="" /> */}
               <img className="coin coin_1" src="/assets/images/common/coin1.png" alt="" />
-              <img className="coin coin_7" src="/assets/images/common/coin7.png" alt="" width={"30%"}/>
-              <img className="coin coin_8" src="/assets/images/common/coin8.png" alt=""  width={"10%"}/>
+              <img className="coin coin_7" src="/assets/images/common/coin11.png" alt="" width={"30%"}/>
+              <img className="coin coin_8" src="/assets/images/common/coin13.png" alt=""  width={"10%"}/>
               {/* <img className="coin coin_5" src="/assets/images/common/coin5.png" alt="" /> */}
               {/* <img className="coin coin_6" src="/assets/images/common/coin6.png" alt="" /> */}
-              <img className="coin coin_9" src="/assets/images/common/coin9.png" alt=""  width={"20%"}/>
-              <img className="coin coin_10" src="/assets/images/common/coin10.png" alt=""  width={"10%"}/>
-              <img className="coin coin_11" src="/assets/images/common/coin8.png" alt=""  width={"10%"}/>
-              <img className="coin coin_14" src="/assets/images/common/coin7.png" alt=""  width={"10%"}/>
+              <img className="coin coin_9" src="/assets/images/common/coin13.png" alt=""  width={"20%"}/>
+              <img className="coin coin_10" src="/assets/images/common/coin12.png" alt=""  width={"10%"}/>
+              <img className="coin coin_11" src="/assets/images/common/coin13.png" alt=""  width={"10%"}/>
+              <img className="coin coin_14" src="/assets/images/common/coin12.png" alt=""  width={"10%"}/>
             </div>
           </div>
         </div>
@@ -112,9 +112,17 @@ export default function Technology() {
             <div className="swiper-container slider-6">
               <Swiper {...swiperOptions} className="swiper-wrapper">
                 <SwiperSlide>
-                  <img src="/assets/images/common/logo_tech_1.png" alt="" style={{
+                <img src="/assets/images/common/logo_tech_1.png" alt="" style={{
                         filter: 'brightness(0) invert(1) grayscale(100%) brightness(1000%)',
                         }} />
+
+                </SwiperSlide>
+                <SwiperSlide>
+                <img src="/assets/images/common/brand_10.png" alt="" style={{
+                        filter: 'brightness(0) invert(1) grayscale(100%) brightness(1000%)',
+                        }} />
+
+                        
                 </SwiperSlide>
               </Swiper>
               <div className="swiper-pagination pagination_slider-6" />
