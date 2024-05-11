@@ -81,12 +81,13 @@ export default function Staking() {
 
                 
 
-                <div className="tf-section tf-contact pt60 back">
-                    <div className="container">
+                <div className="tf-section tf-contact pt60"  style={{background: 'url("./../../assets/images/backgroup/bearstake1.png")',
+                 backgroundRepeat:"no-repeat" , backgroundSize:"cover", backgroundPosition:"center"}}>
+                    <div className="container " >
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="flat-tabs aos-init aos-animate">
-                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' , }}>
                                 {/* First Row with 3 Columns */}
                                 <div style={getRowStyle(3)}>
                                     <div style={{ ...baseColumnStyle, width: 'calc(33.333% - 40px)' }}>                                                             
