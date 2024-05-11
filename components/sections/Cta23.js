@@ -21,7 +21,7 @@ export default function Cta23() {
                     </div> */}
                     <div className="col-md-3">
                         <div className="" data-aos="fade-left" data-aos-duration={1200} style={{ position: 'relative', left: '-200px' }}>                     
-                            <img src="/assets/images/common/cat23.png" alt="" style={{ maxWidth: '600px', height: 'auto', transform: 'scale(1)'}}/>
+                            <img src="/assets/images/common/cat23-2.png" alt="" style={{ maxWidth: '600px', height: 'auto', transform: 'scale(1)'}}/>
                         </div>
                     </div>
                 </div>
