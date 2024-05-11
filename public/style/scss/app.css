@@ -997,9 +997,9 @@ form button {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(180deg, #09121D 3.92%, rgba(9, 18, 29, 0) 36.79%, #09121D 83.98%), url("./../../assets/images/backgroup/bg_pagetitle.png"), center, center, no-repeat;
+  background: url("./../../assets/images/backgroup/bg_pagetitle.png"), center, center, no-repeat;
   mix-blend-mode: luminosity;
-  background-position: center, center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;

@@ -19,11 +19,12 @@ export default function Roadmap() {
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="date">April 16, 2022</h6>
+                                                    <h6 className="date">First Quarter: Website Launch, Presale, and Token </h6>
                                                     <ul>
-                                                        <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                        <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                        <li>Mauris vel nisl quis dolor accumsan luctus</li>
+                                                        <li>Website Development: Develop and launch the official BuBu Coin website. </li>
+                                                        <li>Presale Event: Conduct a presale event to offer 
+                                                            early supporters the opportunity to purchase BuBu Coins at discounted rates. </li>
+                                                        <li>Token Creation: Create and deploy the BuBu Coin on Base Chain.</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -32,15 +33,18 @@ export default function Roadmap() {
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="date">April 16, 2022</h6>
+                                                    <h6 className="date">Third Quarter: NFT Minting DApp and Coin Listing on Known CEX </h6>
                                                     <ul>
-                                                        <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                        <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                        <li>Mauris vel nisl quis dolor accumsan luctus</li>
+                                                        <li>NFT Minting DApp: Launch a decentralized 
+                                                            application (DApp) that enables users to mint BuBu NFTs on the  platform. </li>
+                                                        <li>Coin Listing on Known Centralized Exchanges (CEX): Pursue listings on established cryptocurrency
+                                                             exchanges to increase BuBu Coin's liquidity and accessibility 
+                                                             to a broader audience of traders and investors.</li>
+                                                        {/* <li>Mauris vel nisl quis dolor accumsan luctus</li> */}
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div className="roadmap-box-style">
+                                            {/* <div className="roadmap-box-style">
                                                 <div className="icon">
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
@@ -65,7 +69,7 @@ export default function Roadmap() {
                                                         <li>Mauris vel nisl quis dolor accumsan luctus</li>
                                                     </ul>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="right">
                                             <div className="roadmap-box-style active">
@@ -73,11 +77,13 @@ export default function Roadmap() {
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="date">April 16, 2022</h6>
+                                                    <h6 className="date">Second Quarter: Staking and Introduction of NFTs </h6>
                                                     <ul>
-                                                        <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                        <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                        <li>Mauris vel nisl quis dolor accumsan luctus</li>
+                                                        <li>Staking Platform Launch: Introduce staking 
+                                                            functionality for BuBu Coin holders, allowing them to lock up their tokens in return for staking rewards. 
+</li>
+                                                        <li>Introduction of NFTs: Begin the integration of Non-Fungible Tokens (NFTs) into the BuBu ecosystem.</li>
+                                                        {/* <li>Mauris vel nisl quis dolor accumsan luctus</li> */}
                                                     </ul>
                                                 </div>
                                             </div>
@@ -86,15 +92,18 @@ export default function Roadmap() {
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="date">April 16, 2022</h6>
+                                                    <h6 className="date">Fourth Quarter: NFT Marketplace and Coin Listing on CEX</h6>
                                                     <ul>
-                                                        <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                        <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                        <li>Mauris vel nisl quis dolor accumsan luctus</li>
+                                                        <li>NFT Marketplace Launch: Introduce a dedicated NFT marketplace within 
+                                                            the BuBu ecosystem, allowing users to buy, sell, and trade NFTs securely and efficiently.</li>
+                                                        <li>Coin Listing on CEX: Continue efforts to secure 
+                                                            listings on additional centralized exchanges to 
+                                                            expand BuBu Coin's market reach and trading volume.</li>
+                                                        {/* <li>Mauris vel nisl quis dolor accumsan luctus</li> */}
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div className="roadmap-box-style">
+                                            {/* <div className="roadmap-box-style">
                                                 <div className="icon">
                                                     <img src="/assets/images/common/down.svg" alt="" />
                                                 </div>
@@ -106,7 +115,7 @@ export default function Roadmap() {
                                                         <li>Mauris vel nisl quis dolor accumsan luctus</li>
                                                     </ul>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

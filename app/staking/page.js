@@ -76,12 +76,12 @@ export default function Staking() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Staking">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Staking" >
                 <div>
 
                 
 
-                <div className="tf-section tf-contact pt60">
+                <div className="tf-section tf-contact pt60 back">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
