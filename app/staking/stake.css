@@ -1,6 +1,7 @@
 
 .back{
-    background: url("/public/assets/images/backgroup/bearStakeResize-2.png");
+    display: flex;
+    flex-direction: row;
 }
 
 .first{
@@ -14,10 +15,18 @@
 }
 .g1{
     flex: 1;
-    padding: 18px;
-    align-items: center;
 }
 .btns{
+    flex-direction: row;
+}
+.back2{
+    width: calc(33.333% - 40px);
+}
+.lastBack{
+    width:calc(50% - 40px);
+}
+.lastBack1{
+    display: flex;
     flex-direction: row;
 }
 @media (width<1100px) {
@@ -31,4 +40,32 @@
         width: 100%;
     }
     
+}
+@media (width<400px) {
+    .mobstake{
+        background: url("/public/assets/images/backgroup/bearStakeResize-2.png") ;
+    }
+}
+@media (width<699.5px){
+    .lastBack{
+        width:calc(100% - 20px);
+    }
+}
+
+@media (width<700px){
+    .back{
+        flex-direction: column;
+        width: 100%;
+    }
+    .back2{
+        width: 100%;
+      };
+    .lastBack{
+        width:100%;
+    }
+    .lastBack1{
+        flex-direction: column;
+        width: 100%;
+        
+    }
 }

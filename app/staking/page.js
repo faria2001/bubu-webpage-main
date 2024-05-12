@@ -81,16 +81,16 @@ export default function Staking() {
 
                 
 
-                <div className="tf-section tf-contact pt60"  style={{background: 'url("./../../assets/images/backgroup/bearstake1.png")',
-                 backgroundRepeat:"no-repeat" , backgroundSize:"cover", backgroundPosition:"center"}}>
+                <div className="tf-section tf-contact pt60 stakemob"  style={{background: 'url("./../../assets/images/backgroup/bearstake1.png")',
+                 backgroundRepeat:"no-repeat" , backgroundSize:"cover", backgroundPosition:"center" }} >
                     <div className="container " >
-                        <div className="row">
-                            <div className="col-md-12">
+                        <div className="row" >
+                            <div className="col-md-12" >
                                 <div className="flat-tabs aos-init aos-animate">
                                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' , }}>
                                 {/* First Row with 3 Columns */}
-                                <div style={getRowStyle(3)}>
-                                    <div style={{ ...baseColumnStyle, width: 'calc(33.333% - 40px)' }}>                                                             
+                                <div style={getRowStyle(3)} className='back'>
+                                    <div style={{ ...baseColumnStyle }} className='back2' >                                                             
                                         <form action="#">
                                             <div className="project-info-form forget-form no-style">
                                                 {/* <h4 className="title">Total Value Locked</h4> */}
@@ -103,7 +103,7 @@ export default function Staking() {
                                             </div>
                                         </form>
                                     </div>
-                                    <div style={{ ...baseColumnStyle, width: 'calc(33.333% - 40px)' }}>
+                                    <div style={{ ...baseColumnStyle }} className='back2' >
                                     
                                     <form action="#">
                                         <div className="project-info-form forget-form no-style">
@@ -145,7 +145,7 @@ export default function Staking() {
                                     </form>
                                     
                                     </div>
-                                    <div style={{ ...baseColumnStyle, width: 'calc(33.333% - 40px)' }}>
+                                    <div style={{ ...baseColumnStyle}} className='back2' >
                                     
                                         <form action="#">
                                             <div className="project-info-form forget-form no-style">
@@ -279,7 +279,7 @@ export default function Staking() {
                                 </div>
 
                                 {/* Third Row with 2 Columns */}
-                                <div style={getRowStyle(2)}>
+                                <div style={getRowStyle(2)} className='lastBack1'>
                                 <div style={{ 
                                     backgroundColor: '#1E2835', 
                                     borderRadius: '20px', 
@@ -287,15 +287,16 @@ export default function Staking() {
                                     border: '1px solid rgba(255, 255, 255, 0.0784313725)', 
                                     margin: '0 auto 30px auto', 
                                     display: 'flex', 
-                                    flexDirection: 'column', 
-                                    width: 'calc(50% - 40px)' 
-                                }}>
+                                    flexDirection: 'column',
+                                    
+                                }} className='lastBack'>
                                     {/* First Row with Two Columns */}
                                     <div style={{ 
                                         display: 'flex', 
                                         flexFlow: 'wrap', 
-                                        marginBottom: '18px' 
-                                    }}>
+                                        marginBottom: '18px',
+                                    }}
+                                    >
                                         {/* First Column, 60% Width */}
                                         <div style={{ 
                                             flex: '60%', 
@@ -387,7 +388,7 @@ export default function Staking() {
                                 </div>
 
                                     {/* </div> */}
-                                    <div style={{ ...baseColumnStyle, width: 'calc(50% - 40px)' }}>
+                                    <div style={{ ...baseColumnStyle }} className='lastBack'>
                                     
                                         {/* First Row */}
                                         <div style={{
