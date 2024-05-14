@@ -14,6 +14,7 @@ export default function Staking() {
         const timerId = setInterval(() => {
             const now = new Date();
             const difference = targetDate - now;
+            
 
             if (difference > 0) {
                 const days = Math.floor(difference / (1000 * 60 * 60 * 24));
